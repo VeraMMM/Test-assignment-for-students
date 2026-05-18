@@ -55,3 +55,9 @@ docker compose up --build
 
 После успешного запуска сервис будет доступен в браузере по адресу:
 * **Swagger UI:** [http://localhost:8000/docs](http://localhost:8000/docs)
+
+##  LLM Классификация
+
+Для определения типа пользовательского запроса используется OpenRouter API.
+
+Модель по умолчанию:meta-llama/llama-3-8b-instruct
